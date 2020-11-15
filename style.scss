@@ -1,0 +1,1552 @@
+//variables 
+$rosa: #f93960;
+$crema:#ECECEC;
+$primaria: 'Secular One';
+$secundaria: 'Montserrat';
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: $rosa; 
+    }
+
+    .carousel-slide{
+
+        width: 50%;
+        height: 100%;
+    
+    }
+    
+    .carousel-item {
+        
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    .navbar{
+    
+        font-family: $primaria;
+        
+    }
+    
+    .nav-link{
+        color: $crema;
+    }
+    .navicon-set{
+        background-color: $rosa;
+        color: $crema;
+        margin: auto;
+    
+    }
+    .navnavbar-redes{ margin: auto;}
+    
+    
+    
+    .fa {
+        color:$crema;
+    }
+    
+    .nav > li.facebook > a:hover {
+        background: pink;
+        
+    }
+    
+    .nav > li.instagram > a:hover {
+        background: pink;
+       
+    }
+    
+       #fondo {
+            background-image: url(../fotos/logo.png);
+              
+            color:$rosa;
+            padding: auto;
+                   bottom: auto;
+                   position: relative;
+             
+            width: auto;
+            height: auto;
+            background-size: cover;
+            align-items: center;
+        
+                  
+               
+                background-position: center, center;
+        }
+            
+            h1{ font-family:$primaria;
+                color: $crema;
+                text-align:center;
+                margin-bottom: auto;
+                
+            font-size: 2rem;}
+    
+            
+            }
+              
+    
+                  
+            .card-deck{
+                margin: auto;
+                padding: auto;
+                min-height: 5px;
+                .card{
+                    background-color: $crema;
+                    font-family: $secundaria;
+                    transition: 150ms ease-in-out;
+                margin: auto;
+                min-height: 5px;
+                &:hover{
+                    transform: scale(1.05);
+    
+                    .card-text{
+    
+                
+                        font-family: $secundaria;                                             
+                        margin: auto;
+                            letter-spacing: normal;
+                            text-align: justify;
+                        display: inline-block;
+                            color:black;
+                                letter-spacing: normal;
+                            position: relative;
+        
+                    } 
+                }
+    
+                
+                               
+                }
+               
+    
+    
+            }
+    
+            .card-group{
+                margin: auto;
+                padding: auto;
+                justify-items: auto;
+                min-height: 100px;
+                           .card{
+                    background-color: $crema;
+                    font-family: $primaria;
+                    transition: 150ms ease-in-out;
+                margin: auto;
+                min-height: 100px;
+                &:hover{
+                    transform: scale(1.05);
+                    color: pink;
+                }
+               
+                }
+                .card-text{
+    
+                
+                    font-family: $secundaria;                                             
+                    margin: auto;
+                        letter-spacing: normal;
+                        text-align: justify;
+                    display: inline-block;
+                        color:black;
+                            letter-spacing: normal;
+                        position: relative;
+    
+                }
+        
+                                              
+                }
+                                                
+    
+            h3{
+                font-family:$primaria;
+                color:black;
+                        font-size: 1rem;
+                    }
+    
+            h2{
+                font-family:$primaria;
+                color: $crema;
+                        font-size: 2rem;}                   
+                        
+    
+            p{
+                font-family: $secundaria;                                             
+        margin: auto;
+            letter-spacing: normal;
+            text-align: justify;
+        display: inline-block;
+            color:$crema;
+                letter-spacing: normal;
+            position: relative;
+    
+      
+            }
+    .navbar__footer{
+        nav{position:relative ;
+          background-color: #0056b2;
+              }
+        .nav-link{ background-color:#0056b2;
+              }}
+       
+            
+    
+            
+    .footer__texto{
+        
+            font-family:$secundaria;
+            font-size: 1rem;
+           right: 5%;
+           position: absolute;
+          background-color: #0056b2;
+     
+        }
+        
+        .footer{
+            background:#05182a;
+            bottom: 0%;
+            color:white;
+            padding: auto;
+            margin: auto;
+            
+            .links{
+              ul {list-style-type: none;}
+              li a{
+                color:$crema;
+                transition: color .2s;
+                &:hover{
+                  text-decoration:none;
+                  color:#4180CB;
+                  }
+              }
+            }  
+            .about-company{
+              i{font-size: 25px;}
+              a{
+                color: $crema;
+                transition: color .2s;
+                &:hover{color:#4180CB}
+              }
+            } 
+            .location{
+              i{font-size: 18px;}
+            }
+            .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+          }
+   
+         
+     .gridcatalogo{
+    
+    
+        display: grid;   
+       grid-template-columns: auto;
+       grid-template-rows: auto;
+       justify-content: center;
+    
+    }
+    
+    .grid{
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: auto;
+           grid-template-rows: auto;
+           display: flex;
+          flex: center;
+          justify-content: center;
+          
+    
+          h2{
+              font-family: $primaria;
+              font-size: 20px;
+            justify-content: center;
+          }
+    
+          h3{
+    font-family: $secundaria;
+    font-size: 6rem;
+    color: black;
+    
+          }
+        ul li{
+            font-family: $secundaria;
+            font-size: 5px;
+            color: black;
+    
+        }
+    
+        ol li{
+    
+            font-family: $secundaria;
+            font-size: 12px;
+            color: black;
+        }
+          
+          #izquierda  {
+              margin: 1rem;
+            width: 180px;
+            float: left;
+            }
+         }
+        
+        
+         .marco_foto{ 
+            position: relative; 
+            width:250px;  
+            height: 250px;                   /* ancho de la foto */ 
+            border:28px solid #05182a;   
+                /* ancho del borde - grosor - color */ 
+            
+            } 
+    
+    
+            @font-face {
+                font-family: 'FontAwesome';
+                src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+                src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+              }
+              
+              *{
+                  margin: 0;
+                  padding: 0;
+                  box-sizing:border-box;
+              }
+     
+            :focus{
+                outline: none;
+            }
+            
+            body{
+                background: #f93960;
+                font-family: $primaria;
+            }
+            
+            /* FORMULARIO =================================== */
+            
+            .form_wrap{
+                width: 1050px;
+                height: 530px;
+                margin: 50px auto;
+                display: flex;
+            
+                background:  $crema;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            }
+            
+            /* Informacion de Contacto*/
+            
+            .cantact_info::before{
+                content: '';
+                width: 100%;
+                height: 100%;
+            
+                position: absolute;
+                top: 0;
+                left: 0;
+            
+                background: #2C3E50;
+                opacity: 0.9;
+            }
+            
+            .cantact_info{
+                width: 38%;
+                position: relative;
+            
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            
+                background-image: url('../fondo.jpg');
+                background-size: cover;
+                background-position: center center;
+            
+            }
+            
+            .info_title,
+            .info_items{
+                position: relative;
+                z-index: 2;
+                color: #fff;
+            }
+            
+            .info_title{
+                margin-bottom: 60px;
+            }
+            
+            .info_title span{
+                font-size: 100px;
+                display: block;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            
+            .info_title h2{
+                font-size: 35px;
+                text-align: center;
+            }
+            
+            .info_items p{
+                display: flex;
+                align-items: center;
+            
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            
+            .info_items p:nth-child(1) span{
+                font-size: 30px;
+                margin-right: 10px;
+            }
+            
+            .info_items p:nth-child(2) span{
+                font-size: 50px;
+                margin-right: 15px;
+                margin-left: 4px;
+            }
+            
+            
+            /* Formulario de contacto*/
+            form.form_contact{
+                width: 62%;
+                padding: 30px 40px;
+            }
+            
+            form.form_contact h2{
+                font-size: 25px;
+                font-weight: 600;
+                color: #303030;
+                margin-bottom: 30px;
+            }
+            
+            form.form_contact .user_info{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            form.form_contact label{
+                font-weight: 600;
+            }
+            
+            form.form_contact input,
+            form.form_contact textarea{
+                width: 100%;
+                padding: 8px 0px 5px;
+                margin-bottom: 20px;
+            
+                border: none;
+                border-bottom: 2px solid #D1D1D1;
+            
+                font-family: 'Open sans';
+                color: #5A5A5A;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            
+            form.form_contact textarea{
+                max-width: 100%;
+                min-width: 100%;
+                max-height: 90px;
+            }
+            
+            form.form_contact input[type="button"]{
+                width: 180px;
+                background: #4091EC;
+                padding: 10px;
+                border: none;
+                border-radius: 25px;
+            
+                align-self: flex-end;
+            
+                color: #fff;
+                font-family: 'Open sans';
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            
+            form.form_contact input[type="button"]:hover{
+                background: #3371B6;
+            }
+            
+            /* Ventana de errores*/
+            .modal_wrap{
+                width: 100%;
+                height: 100vh;
+                background: rgba(0,0,0,0.7);
+            
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 3;
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .mensaje_modal{
+                background: #fff;
+                box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+                width: 400px;
+                padding: 30px 20px 15px;
+            }
+            
+            .mensaje_modal h3{
+                text-align: center;
+                font-family: 'Ubuntu';
+                font-size: 20px;
+                font-weight: 400;
+            }
+            
+            .mensaje_modal h3:after{
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                background: #C5C5C5;
+                margin: 10px 0px 15px;
+            }
+            
+            .mensaje_modal p{
+                font-size: 16px;
+                color: #606060;
+            }
+            
+            .mensaje_modal p:before{
+                content: "\f00d";
+                font-family: FontAwesome;
+                display: inline-block;
+                color: #E25151;
+                margin-right: 8px;
+            }
+            
+            #btnClose{
+                display: inline-block;
+                padding: 3px 10px;
+                margin-top: 10px;
+            
+                background: #E25151;
+                color: #fff;
+                border: 2px solid #B14141;
+                cursor: pointer;
+            
+                float: right;
+            }
+         
+            #wrap{
+      margin: 0 auto;
+      width: 500px;
+      justify-content: center;
+    }
+    details{
+      border: 1px;
+      padding: 5px;
+      font-family: $secundaria;
+      margin-bottom:25px;
+      width:500px;
+      background-color: $rosa;
+    
+    
+      summary{
+        font-weight: bold;
+        color: #2C3E50;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: $secundaria;
+        justify-content: center;
+      }
+      p, a, span{
+        font-size: 14px;
+        color:$crema;
+        font-weight: bold;
+      }
+      details summary::-webkit-details-marker {
+        color:#B14141;
+      }
+         
+              
+    }
+    
+           
+    
+    
+            
+               
+        
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: $rosa; 
+    }
+    ody {
+        background-color: $rosa; 
+      }
+  
+      .carousel-slide{
+  
+          width: 50%;
+          height: 100%;
+      
+      }
+      
+      .carousel-item {
+          
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      .navbar{
+      
+          font-family: $primaria;
+          
+      }
+      
+      .nav-link{
+          color: $crema;
+      }
+      .navicon-set{
+          background-color: $rosa;
+          color: $crema;
+          margin: 5px;
+      
+      }
+      .navnavbar-redes{ margin: 5px;}
+      
+      
+      
+      .fa {
+          color:$crema;
+      }
+      
+      .nav > li.facebook > a:hover {
+          background: pink;
+          
+      }
+      
+      .nav > li.instagram > a:hover {
+          background: pink;
+         
+      }
+      
+         #fondo {
+              background-image: url(../fotos/logo.png);
+                
+              color:$rosa;
+              padding: 7rem;
+                     bottom: 45px;
+                     position: relative;
+               
+              width: 10%;
+              height: 20%;
+              background-size: cover;
+              align-items: center;
+          
+                    
+                 
+                  background-position: center, center;
+          }
+              
+              h1{ font-family:$primaria;
+                  color: $crema;
+                  text-align:center;
+                  margin-bottom: 1rem;
+                  
+              font-size: 2rem;}
+      
+              
+              }
+                
+      
+                    
+              .card-deck{
+                  margin: 0rem;
+                  padding: 0rem;
+                  min-height: 5px;
+                  .card{
+                      background-color: $crema;
+                      font-family: $secundaria;
+                      transition: 150ms ease-in-out;
+                  margin: 0rem;
+                  min-height: 5px;
+                  &:hover{
+                      transform: scale(1.05);
+      
+                      .card-text{
+      
+                  
+                          font-family: $secundaria;                                             
+                          margin: auto;
+                              letter-spacing: normal;
+                              text-align: justify;
+                          display: inline-block;
+                              color:black;
+                                  letter-spacing: normal;
+                              position: relative;
+          
+                      } 
+                  }
+  }
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: $rosa; 
+    }
+    ody {
+        background-color: $rosa; 
+      }
+  
+      .carousel-slide{
+  
+          width: 50%;
+          height: 100%;
+      
+      }
+      
+      .carousel-item {
+          
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      .navbar{
+      
+          font-family: $primaria;
+          
+      }
+      
+      .nav-link{
+          color: $crema;
+      }
+      .navicon-set{
+          background-color: $rosa;
+          color: $crema;
+          margin: 5px;
+      
+      }
+      .navnavbar-redes{ margin: 5px;}
+      
+      
+      
+      .fa {
+          color:$crema;
+      }
+      
+      .nav > li.facebook > a:hover {
+          background: pink;
+          
+      }
+      
+      .nav > li.instagram > a:hover {
+          background: pink;
+         
+      }
+      
+         #fondo {
+              background-image: url(../fotos/logo.png);
+                
+              color:$rosa;
+              padding: 7rem;
+                     bottom: 45px;
+                     position: relative;
+               
+              width: 10%;
+              height: 20%;
+              background-size: cover;
+              align-items: center;
+          
+                    
+                 
+                  background-position: center, center;
+          }
+              
+              h1{ font-family:$primaria;
+                  color: $crema;
+                  text-align:center;
+                  margin-bottom: 1rem;
+                  
+              font-size: 2rem;}
+      
+              
+              }
+                
+      
+                    
+              .card-deck{
+                  margin: 0rem;
+                  padding: 0rem;
+                  min-height: 5px;
+                  .card{
+                      background-color: $crema;
+                      font-family: $secundaria;
+                      transition: 150ms ease-in-out;
+                  margin: 0rem;
+                  min-height: 5px;
+                  &:hover{
+                      transform: scale(1.05);
+      
+                      .card-text{
+      
+                  
+                          font-family: $secundaria;                                             
+                          margin: auto;
+                              letter-spacing: normal;
+                              text-align: justify;
+                          display: inline-block;
+                              color:black;
+                                  letter-spacing: normal;
+                              position: relative;
+          
+                      } 
+                  }
+  
+
+ 
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: $rosa; 
+    }
+    ody {
+        background-color: $rosa; 
+      }
+  
+      .carousel-slide{
+  
+          width: 50%;
+          height: 100%;
+      
+      }
+      
+      .carousel-item {
+          
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      .navbar{
+      
+          font-family: $primaria;
+          
+      }
+      
+      .nav-link{
+          color: $crema;
+      }
+      .navicon-set{
+          background-color: $rosa;
+          color: $crema;
+          margin: 5px;
+      
+      }
+      .navnavbar-redes{ margin: 5px;}
+      
+      
+      
+      .fa {
+          color:$crema;
+      }
+      
+      .nav > li.facebook > a:hover {
+          background: pink;
+          
+      }
+      
+      .nav > li.instagram > a:hover {
+          background: pink;
+         
+      }
+      
+         #fondo {
+              background-image: url(../fotos/logo.png);
+                
+              color:$rosa;
+              padding: 7rem;
+                     bottom: 45px;
+                     position: relative;
+               
+              width: 10%;
+              height: 20%;
+              background-size: cover;
+              align-items: center;
+          
+                    
+                 
+                  background-position: center, center;
+          }
+              
+              h1{ font-family:$primaria;
+                  color: $crema;
+                  text-align:center;
+                  margin-bottom: 1rem;
+                  
+              font-size: 2rem;}
+      
+              
+              }
+                
+      
+                    
+              .card-deck{
+                  margin: 0rem;
+                  padding: 0rem;
+                  min-height: 5px;
+                  .card{
+                      background-color: $crema;
+                      font-family: $secundaria;
+                      transition: 150ms ease-in-out;
+                  margin: 0rem;
+                  min-height: 5px;
+                  &:hover{
+                      transform: scale(1.05);
+      
+                      .card-text{
+      
+                  
+                          font-family: $secundaria;                                             
+                          margin: auto;
+                              letter-spacing: normal;
+                              text-align: justify;
+                          display: inline-block;
+                              color:black;
+                                  letter-spacing: normal;
+                              position: relative;
+          
+                      } 
+                  }
+  }
+ 
+   
+@media only screen and (min-width: 1024px) {
+    body {
+      background-color: $rosa;
+    }
+  }
+  
+  
+  
+
+
+body{
+    background-color: $rosa;
+
+    }
+
+.carousel-slide{
+
+    width: 50%;
+    height: 100%;
+
+}
+
+.carousel-item {
+    
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.navbar{
+
+    font-family: $primaria;
+    
+}
+
+.nav-link{
+    color: $crema;
+}
+.navicon-set{
+    background-color: $rosa;
+    color: $crema;
+    margin: 10px;
+
+}
+.navnavbar-redes{ margin: 10px;}
+
+
+
+.fa {
+    color:$crema;
+}
+
+.nav > li.facebook > a:hover {
+    background: pink;
+    
+}
+
+.nav > li.instagram > a:hover {
+    background: pink;
+   
+}
+
+   #fondo {
+        background-image: url(../fotos/logo.png);
+          
+        color:$rosa;
+        padding: 7rem;
+               bottom: 45px;
+               position: relative;
+         
+        width: 30%;
+        height: 50%;
+        background-size: cover;
+        align-items: center;
+    
+              
+           
+            background-position: center, center;
+    }
+        section { div{
+        
+           
+            background-position: center, center;
+            background-size: cover;
+          
+        }
+        h1{ font-family:$primaria;
+            color: $crema;
+            text-align:center;
+            margin-bottom: 4rem;
+            
+        font-size: 3rem;}
+
+        
+        }
+        
+
+
+              
+        .card-deck{
+            margin: 2rem;
+            padding: 2rem;
+            min-height: 10px;
+            .card{
+                background-color: $crema;
+                font-family: $secundaria;
+                transition: 150ms ease-in-out;
+            margin: 2rem;
+            min-height: 10px;
+            &:hover{
+                transform: scale(1.05);
+
+                .card-text{
+
+            
+                    font-family: $secundaria;                                             
+                    margin: auto;
+                        letter-spacing: normal;
+                        text-align: justify;
+                    display: inline-block;
+                        color:black;
+                            letter-spacing: normal;
+                        position: relative;
+    
+                } 
+            }
+
+            
+                           
+            }
+           
+
+
+        }
+
+        .card-group{
+            margin: auto;
+            padding: 2rem;
+            justify-items: auto;
+            min-height: 100px;
+                       .card{
+                background-color: $crema;
+                font-family: $primaria;
+                transition: 150ms ease-in-out;
+            margin: 3rem;
+            min-height: 100px;
+            &:hover{
+                transform: scale(1.05);
+                color: pink;
+            }
+           
+            }
+            .card-text{
+
+            
+                font-family: $secundaria;                                             
+                margin: auto;
+                    letter-spacing: normal;
+                    text-align: justify;
+                display: inline-block;
+                    color:black;
+                        letter-spacing: normal;
+                    position: relative;
+
+            }
+    
+            
+                           
+            }
+           
+
+        
+        
+        
+
+        h3{
+            font-family:$primaria;
+            color:black;
+                    font-size: 1rem;
+                }
+
+        h2{
+            font-family:$primaria;
+            color: $crema;
+                    font-size: 2rem;}
+
+          
+    
+    
+        
+       
+
+        p{
+            font-family: $secundaria;                                             
+    margin: auto;
+        letter-spacing: normal;
+        text-align: justify;
+    display: inline-block;
+        color:$crema;
+            letter-spacing: normal;
+        position: relative;
+
+  
+        }
+.navbar__footer{
+    nav{position:relative ;
+      background-color: #0056b2;
+          }
+    .nav-link{ background-color:#0056b2;
+          }}
+   
+        
+
+        
+.footer__texto{
+    
+        font-family:$secundaria;
+        font-size: 1rem;
+       right: 5%;
+       position: absolute;
+      background-color: #0056b2;
+ 
+    }
+    
+    .footer{
+        background:#05182a;
+        bottom: 0%;
+        color:white;
+        padding: auto;
+        margin: auto;
+        
+        .links{
+          ul {list-style-type: none;}
+          li a{
+            color:$crema;
+            transition: color .2s;
+            &:hover{
+              text-decoration:none;
+              color:#4180CB;
+              }
+          }
+        }  
+        .about-company{
+          i{font-size: 25px;}
+          a{
+            color: $crema;
+            transition: color .2s;
+            &:hover{color:#4180CB}
+          }
+        } 
+        .location{
+          i{font-size: 18px;}
+        }
+        .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+      }
+
+
+@for $i from 1 to 3 {
+    .h1-#{$i} { width: 2em * $i; }
+  }
+
+  @for $i from 1 to 3 {
+    .h2-#{$i} { width: 2em * $i; }
+  }
+
+  @mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .box {
+    @include sizes(500px, 500px);
+ }
+ .grid{
+
+    display: grid;
+    grid-template-columns: auto;
+       grid-template-rows: auto;
+       display: flex;
+      flex: center;
+     }
+ .gridcatalogo{
+
+
+	display: grid;   
+   grid-template-columns: auto;
+   grid-template-rows: auto;
+   justify-content: center;
+
+}
+
+.grid{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+       grid-template-rows: auto;
+       display: flex;
+      flex: center;
+      justify-content: center;
+      
+
+      h2{
+          font-family: $primaria;
+          font-size: 20px;
+        justify-content: center;
+      }
+
+      h3{
+font-family: $secundaria;
+font-size: 6rem;
+color: black;
+
+      }
+    ul li{
+        font-family: $secundaria;
+        font-size: 5px;
+        color: black;
+
+    }
+
+    ol li{
+
+        font-family: $secundaria;
+        font-size: 12px;
+        color: black;
+    }
+      
+      #izquierda  {
+          margin: 1rem;
+        width: 180px;
+        float: left;
+        }
+     }
+    
+    
+     .marco_foto{ 
+        position: relative; 
+        width:250px;  
+        height: 250px;                   /* ancho de la foto */ 
+        border:28px solid #05182a;   
+            /* ancho del borde - grosor - color */ 
+        
+        } 
+
+
+        @font-face {
+            font-family: 'FontAwesome';
+            src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+            src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+          }
+          
+          *{
+              margin: 0;
+              padding: 0;
+              box-sizing:border-box;
+          }
+ 
+        :focus{
+            outline: none;
+        }
+        
+        body{
+            background: #f93960;
+            font-family: $primaria;
+        }
+        
+        /* FORMULARIO =================================== */
+        
+        .form_wrap{
+            width: 1050px;
+            height: 530px;
+            margin: 50px auto;
+            display: flex;
+        
+            background:  $crema;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Informacion de Contacto*/
+        
+        .cantact_info::before{
+            content: '';
+            width: 100%;
+            height: 100%;
+        
+            position: absolute;
+            top: 0;
+            left: 0;
+        
+            background: #2C3E50;
+            opacity: 0.9;
+        }
+        
+        .cantact_info{
+            width: 38%;
+            position: relative;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+            background-image: url('../fondo.jpg');
+            background-size: cover;
+            background-position: center center;
+        
+        }
+        
+        .info_title,
+        .info_items{
+            position: relative;
+            z-index: 2;
+            color: #fff;
+        }
+        
+        .info_title{
+            margin-bottom: 60px;
+        }
+        
+        .info_title span{
+            font-size: 100px;
+            display: block;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .info_title h2{
+            font-size: 35px;
+            text-align: center;
+        }
+        
+        .info_items p{
+            display: flex;
+            align-items: center;
+        
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .info_items p:nth-child(1) span{
+            font-size: 30px;
+            margin-right: 10px;
+        }
+        
+        .info_items p:nth-child(2) span{
+            font-size: 50px;
+            margin-right: 15px;
+            margin-left: 4px;
+        }
+        
+        
+        /* Formulario de contacto*/
+        form.form_contact{
+            width: 62%;
+            padding: 30px 40px;
+        }
+        
+        form.form_contact h2{
+            font-size: 25px;
+            font-weight: 600;
+            color: #303030;
+            margin-bottom: 30px;
+        }
+        
+        form.form_contact .user_info{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form.form_contact label{
+            font-weight: 600;
+        }
+        
+        form.form_contact input,
+        form.form_contact textarea{
+            width: 100%;
+            padding: 8px 0px 5px;
+            margin-bottom: 20px;
+        
+            border: none;
+            border-bottom: 2px solid #D1D1D1;
+        
+            font-family: 'Open sans';
+            color: #5A5A5A;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        form.form_contact textarea{
+            max-width: 100%;
+            min-width: 100%;
+            max-height: 90px;
+        }
+        
+        form.form_contact input[type="button"]{
+            width: 180px;
+            background: #4091EC;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+        
+            align-self: flex-end;
+        
+            color: #fff;
+            font-family: 'Open sans';
+            font-size: 16px;
+            font-weight: 600px;
+            cursor: pointer;
+        }
+        
+        form.form_contact input[type="button"]:hover{
+            background: #3371B6;
+        }
+        
+        /* Ventana de errores*/
+        .modal_wrap{
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.7);
+        
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 3;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mensaje_modal{
+            background: #fff;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+            width: 400px;
+            padding: 30px 20px 15px;
+        }
+        
+        .mensaje_modal h3{
+            text-align: center;
+            font-family: 'Ubuntu';
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        .mensaje_modal h3:after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #C5C5C5;
+            margin: 10px 0px 15px;
+        }
+        
+        .mensaje_modal p{
+            font-size: 16px;
+            color: #606060;
+        }
+        
+        .mensaje_modal p:before{
+            content: "\f00d";
+            font-family: FontAwesome;
+            display: inline-block;
+            color: #E25151;
+            margin-right: 8px;
+        }
+        
+        #btnClose{
+            display: inline-block;
+            padding: 3px 10px;
+            margin-top: 10px;
+        
+            background: #E25151;
+            color: #fff;
+            border: 2px solid #B14141;
+            cursor: pointer;
+        
+            float: right;
+        }
+     
+#wrap{
+  margin: 0 auto;
+  width: 500px;
+  justify-content: center;
+}
+details{border: 1px;
+    padding: 5px;
+    font-family: $secundaria;
+    margin-bottom:25px;
+    width:500px;
+    background-color: $rosa;
+    p, a, span{
+        font-size: 14px;
+        color:$crema;}
+       summary{
+      font-weight: bold;
+      color: #2C3E50;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: $secundaria;}}
+  
+
+          
+
+
+  
+   
+
+
+        
+           
+    
+   
+
+
+
+
+
+
