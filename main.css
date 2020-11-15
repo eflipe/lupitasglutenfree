@@ -36,7 +36,7 @@ body {
   background: pink; }
 
 #fondo {
-  background-image: url(../fotos/logo.png);
+  background-image: url(fotos/logo.png);
   color: #f93960;
   padding: 7rem;
   bottom: 45px;
