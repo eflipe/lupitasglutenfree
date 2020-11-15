@@ -1,0 +1,162 @@
+body {
+  background-color: #f93960; }
+
+.carousel-slide {
+  width: 50%;
+  height: 100%; }
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.navbar {
+  font-family: "Secular One"; }
+
+.nav-link {
+  color: #ECECEC; }
+
+.navicon-set {
+  background-color: #f93960;
+  color: #ECECEC;
+  margin: 10px; }
+
+.navnavbar-redes {
+  margin: 10px; }
+
+.fa {
+  color: #ECECEC; }
+
+.nav > li.facebook > a:hover {
+  background: pink; }
+
+.nav > li.instagram > a:hover {
+  background: pink; }
+
+#fondo {
+  background-image: url(.../fotos);
+  color: #f93960;
+  padding: 12rem;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center, center; }
+
+section div {
+  background-position: center, center;
+  background-size: cover; }
+
+section h1 {
+  font-family: "Secular One";
+  color: #ECECEC;
+  font-size: 2rem; }
+
+.card-deck {
+  margin: 2rem;
+  padding: 2rem; }
+  .card-deck .card {
+    background-color: #ECECEC;
+    font-family: "Montserrat";
+    transition: 150ms ease-in-out;
+    margin: 3rem; }
+    .card-deck .card:hover {
+      transform: scale(1.05); }
+
+.card-group {
+  margin: auto;
+  padding: 2rem;
+  justify-items: auto; }
+  .card-group .card {
+    background-color: #ECECEC;
+    font-family: "Montserrat";
+    transition: 150ms ease-in-out;
+    margin: 3rem; }
+    .card-group .card:hover {
+      transform: scale(1.05);
+      color: pink; }
+    .card-group .card p {
+      color: black; }
+
+h2 {
+  font-family: "Secular One";
+  color: #ECECEC;
+  font-size: 1rem; }
+
+p {
+  font-family: "Montserrat";
+  margin: auto;
+  letter-spacing: normal;
+  text-align: justify;
+  display: inline-block;
+  color: #ECECEC;
+  letter-spacing: normal;
+  position: relative; }
+
+.navbar__footer nav {
+  position: relative; }
+
+.footer__texto {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  right: 5%;
+  position: absolute; }
+
+.h1-1 {
+  width: 2em; }
+
+.h1-2 {
+  width: 4em; }
+
+.h2-1 {
+  width: 2em; }
+
+.h2-2 {
+  width: 4em; }
+
+.box {
+  height: 500px;
+  width: 500px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  display: flex;
+  flex: center; }
+
+.gridcatalogo {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center; }
+
+.grid {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  display: flex;
+  flex: center;
+  justify-content: center; }
+  .grid h2 {
+    font-family: "Secular One";
+    font-size: 20px;
+    justify-content: center; }
+  .grid h3 {
+    font-family: "Secular One";
+    font-size: 16px;
+    color: black; }
+  .grid ul li {
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: black; }
+  .grid ol li {
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: black; }
+  .grid #izquierda {
+    margin: 1rem;
+    width: 180px;
+    float: left; }
